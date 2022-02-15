@@ -15,11 +15,11 @@ class Main extends Component {
               <source src={require("./sound/Mozart_No21.ogg")} type="audio/ogg" />
               <source src={require("./sound/Mozart_No21.mp3")} type="audio/mpeg" />
             </audio>
-            <h3 className="pt-5">Welcome to my Portfolio!🌌</h3>
+            <h3 className="pt-5">Welcome to my Portfolio!<span role="img" aria-label="galaxy">🌌</span> </h3>
           </header>
 
           <section className="smol">
-            <h2>About Me 😎</h2>
+            <h2>About Me <span role="img" aria-label="cool shades">😎 </span> </h2>
             <p>
               I have an avid interest in all things related to Software Development,
               Fintech and Web3. A lot of my time is spent programming and catching
@@ -31,7 +31,7 @@ class Main extends Component {
 
           <section className="three smol">
             <div id="projects" className="container-fluid bg-3 text-center">
-              <h1 className="margin">App Projects 📱</h1>
+              <h1 className="margin">App Projects  <span role="img" aria-label="cell phone"> 📱</span></h1>
               <br />
               <div className="row text-center">
                 <div className="col-sm-4 pb-3">
@@ -196,7 +196,7 @@ class Main extends Component {
           <div>{ /*Web Projects */}</div>
           <section className="three smol">
             <div id="web" className="container-fluid text-center">
-              <h1 className="margin">Web Projects🌎</h1>
+              <h1 className="margin">Web Projects <span role="img" aria-label="Za Worldo">🌎</span> </h1>
               <br />
               <div className="row text-center">
                 <div className="col-lg pb-4">
@@ -249,7 +249,7 @@ class Main extends Component {
           <section className="three">
             <div>{/*Certificate Container (Grid)*/}</div>
             <div id="certificates" className="container-fluid bg-1 text-center">
-              <h2 className="margin">Certificates📜</h2>
+              <h2 className="margin">Certificates <span role="img" aria-label="paper article"> 📜</span> </h2>
               <br />
               <div className="row text-center pt-1">
                 <div className="col-lg pb-4">
@@ -456,7 +456,7 @@ class Main extends Component {
           <section className="three smol">
             <div>{/*Article Container (Grid)*/}</div>
             <div id="articles" className="container-fluid bg-1 text-center">
-              <h2 className="margin">My Articles📰</h2>
+              <h2 className="margin">My Articles <span role="img" aria-label="news paper"> 📰</span> </h2>
               <br />
               <div className="row text-center">
                 <div className="col-lg pb-4">
@@ -464,7 +464,7 @@ class Main extends Component {
                     <a
                       href="https://jacenwriter.medium.com/how-to-get-tech-jobs-and-internships-in-jamaica-d9f2289f82d6"
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                     >
                       <img
                         className="img-fluid"
@@ -480,7 +480,7 @@ class Main extends Component {
                       <a
                         href="https://jacenwriter.medium.com/how-to-get-tech-jobs-and-internships-in-jamaica-d9f2289f82d6"
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
                       >
                         <button type="button" className="btn btn-primary btn-lg">
                           Link
@@ -494,7 +494,7 @@ class Main extends Component {
                     <a
                       href="https://jacenwriter.medium.com/how-to-buy-crypto-currencies-from-jamaica-a84b6af9f9a7"
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                     >
                       <img
                         className="img-fluid"
@@ -511,7 +511,7 @@ class Main extends Component {
                         <a
                           href="https://jacenwriter.medium.com/how-to-buy-crypto-currencies-from-jamaica-a84b6af9f9a7"
                           target="_blank"
-                          rel="noreferrer"
+                          rel="noopener noreferrer"
                         >
                           <button type="button" className="btn btn-primary btn-lg">
                             Link
@@ -531,7 +531,7 @@ class Main extends Component {
                     <a
                       href="https://jacenwriter.medium.com/how-to-transfer-crypto-to-a-wallet-and-stake-it-1e5b2a13e112"
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                     >
                       <img
                         className="img-fluid"
@@ -548,7 +548,7 @@ class Main extends Component {
                     <a
                       href="https://jacenwriter.medium.com/how-to-transfer-crypto-to-a-wallet-and-stake-it-1e5b2a13e112"
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                     >
                       <button type="button" className="btn btn-primary btn-lg">
                         Link
@@ -561,7 +561,7 @@ class Main extends Component {
                     <a
                       href="https://jacenwriter.medium.com/how-to-buy-crypto-currencies-on-pancakeswap-8da468b26005"
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                     >
                       <img
                         className="img-fluid"
@@ -576,7 +576,7 @@ class Main extends Component {
                     <a
                       href="https://jacenwriter.medium.com/how-to-buy-crypto-currencies-on-pancakeswap-8da468b26005"
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                     >
                       <button type="button" className="btn btn-primary btn-lg">
                         Link
@@ -590,7 +590,7 @@ class Main extends Component {
 
           <section className="quote">
             <div className="py-3">
-              <h2 className="text-center">🛣</h2>
+              <h2 className="text-center"><span role="img" aria-label="long road">  🛣</span></h2>
               <h2 className="text-center">
                 "The Journey of a Thousand Miles begins with a Single Step"
                 <br /><i>-Lao Tzu</i>
@@ -599,11 +599,11 @@ class Main extends Component {
           </section>
 
           <section className="quote marge col-12">
-            <h1 className="text-center fw-5 pb-5">Contact📞</h1>
+            <h1 className="text-center fw-5 pb-5">Contact <span role="img" aria-label="red phone"> 📞</span> </h1>
             <div className="row text-center">
               <div className="col-sm-4">
                 <a href="mailto:jasonwilliamsr8@gmail.com" target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 ><h3 className="contact">
                     <i className="fas fa-envelope"><i> Email Me</i></i>
                   </h3></a
@@ -613,7 +613,7 @@ class Main extends Component {
                 <a
                   href="https://www.linkedin.com/in/jason-williams-7056b3a6/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 ><h3 className="contact">
                     <i className="fab fa-linkedin"><i> LinkedIn</i></i>
                   </h3></a
@@ -623,7 +623,7 @@ class Main extends Component {
                 <a
                   href="https://github.com/Rift3000?tab=repositories"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 ><h3 className="contact">
                     <i className="fab fa-github-square"><i> Github</i></i>
                   </h3></a

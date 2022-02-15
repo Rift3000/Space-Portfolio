@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import * as THREE from "three";
 import Main from './portfolio.js';
 import ReactDOM from "react-dom";
+import ReactGA from 'react-ga';
 
 class App extends Component {
 
@@ -251,6 +252,8 @@ class App extends Component {
   }
 }
 
+ReactGA.initialize('Your Unique ID');
+ReactGA.pageview(window.location.pathname + window.location.search);
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 
