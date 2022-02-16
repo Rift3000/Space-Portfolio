@@ -35,7 +35,7 @@ class App extends Component {
   componentDidMount() {
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
       // true for mobile device
-      alert("Please view on a PC. You will be redirected to my old profile otherwise.")
+      alert("Please view on a PC. You will be redirected to my old portfolio otherwise.")
       window.location.replace('http://jasonwilliamsja.live/');
     } else {
       // false for not mobile device
