@@ -4,6 +4,10 @@ import Main from './portfolio.js';
 import ReactDOM from "react-dom";
 import ReactGA from 'react-ga';
 
+
+ReactGA.initialize("G-JY69QS4PPP");
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 class App extends Component {
 
   /*
@@ -49,6 +53,7 @@ class App extends Component {
 
     this.mount.appendChild( renderer.domElement );
 
+    {/* 
     window.onload = function () {
       const listener = new THREE.AudioListener();
       camera.add(listener);
@@ -60,6 +65,7 @@ class App extends Component {
       songElement.play();
 
     }
+    */}
 
     // Our screen view
     renderer.setPixelRatio(window.devicePixelRatio);
