@@ -1,13 +1,7 @@
 # Space Portfolio🌌
 
-<div align="center">
-
 ![ReactJS](https://img.shields.io/badge/-React-informational?style=for-the-badge&logo=react)
 ![THREEJS](https://img.shields.io/badge/-Three-darkgreen?style=for-the-badge&logo=Three.js)
-
-</div>
-
-This portfolio was built with Three.js and React.
 
 <br />
 
