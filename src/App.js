@@ -45,6 +45,9 @@ class App extends Component {
       // false for not mobile device
     }
 
+    // For Google Analytics
+    ReactGA.pageview(window.location.pathname + window.location.search);
+
     const scene = new THREE.Scene();
 
     const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
