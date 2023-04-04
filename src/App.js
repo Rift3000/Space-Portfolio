@@ -262,6 +262,7 @@ class App extends Component {
   }
 }
 
+//TODO: Setup Google Analytics
 ReactGA.initialize('Your Unique ID');
 ReactGA.pageview(window.location.pathname + window.location.search);
 const rootElement = document.getElementById("root");

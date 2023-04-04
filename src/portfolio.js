@@ -630,7 +630,7 @@ class Main extends Component {
                 >
               </div>
             </div>
-            <h2 className="text-center fw-bold">Jason Williams 2021&#169;</h2>
+            <h2 className="text-center fw-bold">Jason Williams 2023&#169;</h2>
           </section>
         </main>
 
